@@ -1,0 +1,40 @@
+<!--  <button onclick = "changeColor('red');">Rojo</button>
+<button onclick = "changeColor('yellow');">Amarillo</button>
+<button onclick = "changeColor('blue');">Azul</button>
+<button onclick = "changeColor('orange');">Narannja</button>
+<button onclick = "changeColor('green');">Verde</button>
+-->
+<div class="principal">
+<h1>Distintos modos de cambiar el color</h1>
+
+
+<input type="text" name="cosa" id="color" placeholder="insert color" onchange="changeColor()"> <br><br>
+  
+
+<select id="color1" onchange="changeColor1()">
+  <option value=0>Nada</option>
+  <option value=255>Rojo</option>
+</select>
+
+<select id="color2" onchange="changeColor1()">
+  <option value=0>Nada</option>
+  <option value=255>Verde</option>
+</select>
+<select id="color3" onchange="changeColor1()">
+  <option value=0>Nada</option>
+  <option value=255>Azul</option>
+</select><br><br>
+
+<label for="col">Rojo (Entre 0 and 255):</label>
+  <input type="range" id="red" name="col" min="0" max="255" step= "1" onchange = "changeColor2()"><br>
+<label for="col">Verde (Entre 0 and 255):</label>
+  <input type="range" id="green" name="col" min="0" max="255" step= "1" onchange = "changeColor2()"><br>
+<label for="col">Azul (Entre 0 and 255):</label>
+  <input type="range" id="blue" name="col" min="0" max="255" step= "1" onchange = "changeColor2()"><br>
+<label for="alf">Alfa (Entre 0 and 1):</label>
+  <input type="range" id="alf" name="col" min="0" max="1" step= "0.01" onchange = "changeColor2()"><br><br>
+
+
+<label for="favcolor">Selecciona tu color favorito:</label>
+  <input type="color" id="favcolor" name="favcolor" onchange = "changeColor3()">
+  </div>

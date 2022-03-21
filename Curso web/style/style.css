@@ -1,0 +1,211 @@
+/* body *{
+    outline: red 2px solid;
+    margin: 2px;
+    padding: 5px;
+}
+
+/*----------------*/
+
+@import {url('https://fonts.googleapis.com/css2?family=Festive&family=Redressed&family=Rowdies:wght@300&family=Shizuru&family=Syne+Tactile&display=swap');
+}
+
+body {
+    background: linear-gradient(yellow, beige);
+    font-family: sans-serif;
+    margin: 10px auto;
+    padding: 5px auto;
+    max-width: 800px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+}
+
+header h1 {
+
+    font-size: 30px;
+}
+
+ul.navegacion {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+ul.navegacion a {
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+header,
+main {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: black;
+    color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+
+}
+
+button {
+    background: white;
+    border: 1px solid brown;
+    border-radius: 20px;
+    padding: 8px 15px 6px 15px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    width: 80%;
+}
+
+button:hover {
+    background: brown;
+    color: white;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+ul.cursos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+ul.cursos li {
+    text-align: center;
+    width: 25%;
+}
+
+ul.cursos h3 {
+    padding: 10px;
+    height: 40px;
+}
+
+ h3#cine{
+    font-family: "Festive", cursive;
+} 
+
+h3#imagen{
+    font-family: 'Shizuru', cursive;
+} 
+
+h3#juegos{
+    font-family: 'Redressed', cursive;
+} 
+
+h3#sonido{
+    font-family: 'Rowdies', cursive;
+} 
+
+
+ul.cursos p {
+    text-align: center;
+    height: 50px;
+
+}
+
+ul.cursos img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+main h4.destacable {
+    background: brown url(../img/aurora.jpg);
+    background-size: cover;
+    /* la imagen se ve atraves de una ventana*/
+    background-attachment: fixed;
+    /*parallax*/
+    padding: 120px;
+    margin: 0 -20px;
+    color: white;
+    text-shadow: 2px 2x 8px black;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media(max-width: 600px) {
+    body {
+        margin: 10px;
+        padding: 5px auto;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    ul.navegacion {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    ul.cursos {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    ul.cursos li {
+        width: 100%;
+    }
+
+    ul.cursos img {
+        width: 100%;
+    }
+
+    main h4.destacable {
+        background: brown url(../img/aurora.jpg);
+        background-attachment: scroll;
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+}

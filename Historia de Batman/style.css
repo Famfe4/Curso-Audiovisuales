@@ -1,0 +1,49 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+body{
+background-color: dodgerblue;
+width: 960px;
+margin: 0 auto;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    margin: 10px auto;
+    background: url(img/texturaoscura2.jpg);
+}
+h1, h2{
+    text-align: center;
+/*     background: url(img/texturaoscura.jpg) center no-repeat;
+ */    color: yellow;
+    padding: 5px;
+}
+
+img{
+    display: block;
+    max-width: 600px;
+    max-height: 600px;
+    transition: 1s;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+img:hover{
+    transform: rotate(10deg);
+}
+p{
+    /* background: url(img/texturaoscura.jpg); */
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 5px black;
+}

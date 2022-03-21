@@ -1,0 +1,7 @@
+objet-fit: cover // rellenar con el ancho la ventana
+objet-fit: contain // rellenar con el alto la ventana
+
+li: first-child // el rimer item de la listas
+li: last-child // el ultimo item de la listas
+li: nth-child(Xn) // cada X elementos haces...
+li: nth-child(X) // en el elemento X haces...
