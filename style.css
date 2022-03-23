@@ -1,0 +1,18 @@
+/* * {
+    outline: yellow 1px solid;
+} */
+
+body{
+    max-width: 960px;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(167, 24, 24, 0.64), rgb(167, 24, 24));
+}
+
+header, main, footer{
+    background: white;
+    box-shadow: 2px 2px 5px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
