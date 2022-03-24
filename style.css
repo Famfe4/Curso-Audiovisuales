@@ -16,3 +16,8 @@ header, main, footer{
     margin: 10px;
     text-align: center;
 }
+
+img{
+    max-width: 100%;
+}
+
