@@ -10,4 +10,4 @@ function cambiarvista() {
         galeria.className = "grid";
         textoBoton = document.getElementById("btnCambiar").innerText = "Mostrar en modo lista";
     }
-}cambiarvista();
+}
