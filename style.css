@@ -152,3 +152,30 @@ a,
 button {
     transition: .3s
 }
+
+/* Modos */
+
+ul#galeria.list>li {
+    width: 100%;
+    flex-direction: row;
+    border-radius: 6px;
+}
+
+ul#galeria.list>li a {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul#galeria.list img {
+    height: 36px;
+    margin: 0 16px 0 0;
+    border-radius: 4px;
+}
+
+ul#galeria.list>li:hover img {
+    margin-right: 30px;
+    transform: scale(1.18);
+}
