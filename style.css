@@ -1,23 +1,154 @@
 /* * {
-    outline: yellow 1px solid;
+    outline: red 1px solid;
 } */
 
-body{
+/* Configuración general */
+
+body {
     max-width: 960px;
     margin: 10px auto;
     font-family: sans-serif;
     background: linear-gradient(rgba(167, 24, 24, 0.64), rgb(167, 24, 24));
+
 }
 
-header, main, footer{
+header,
+main,
+footer {
     background: white;
     box-shadow: 2px 2px 5px;
     padding: 15px;
     margin: 10px;
     text-align: center;
+    border-radius: 2px;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(167, 24, 24);
+}
+
+p {
+    hyphens: auto;
+    /* text-align: left; */
+}
+
+/* Configuración especifica de la galeria */
+
+ul#galeria,
+ul.tags {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 20px auto;
+}
+
+ul#galeria {
+    margin: 20px auto;
+
+}
+
+ul#galeria>li {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 180px;
+    justify-content: space-between;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    opacity: 0.55;
+
+}
+
+ul#galeria>li img {
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #AAA;
+    margin-bottom: 12px;
+}
+
+ul#galeria>li:hover {
+    box-shadow: 0 3px 5px #AAA;
+    opacity: 1;
+}
+
+/* Introducción de los elementos usados en los ejercicios */
+
+.html::before {
+    content: 'HTML'
+}
+
+.css::before {
+    content: 'CSS'
+}
+
+.js::before {
+    content: 'JS'
+}
+
+.figma::before {
+    content: 'Figma'
+}
+
+.html {
+    background: orange;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.css {
+    background: lightskyblue;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.js {
+    background: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.figma {
+    background: pink;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Botón de cambio de aspecto */
+
+button {
+    padding: 4px 10px;
+    border: 1px rgb(167, 24, 24) solid;
+    border-radius: 20px;
+    margin: 4px 0px;
+    color: rgb(167, 24, 24)
+}
+
+button:hover {
+    background: rgb(167, 24, 24);
+    color: white;
+    cursor: pointer;
+}
+
+/* Animación */
+
+ul li,
+ul li img,
+.tags,
+a,
+button {
+    transition: .3s
+}
