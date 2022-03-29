@@ -106,6 +106,10 @@ ul#galeria>li:hover {
     content: 'Premier'
 }
 
+.jitter::before {
+    content: 'Jitter'
+}
+
 .html {
     background: orange;
     padding: 5px;
@@ -146,6 +150,13 @@ ul#galeria>li:hover {
     padding: 5px;
     border-radius: 5px;
     color: black;
+}
+
+.jitter {
+    background: black;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
 }
 
 /* Botón de cambio de aspecto */
