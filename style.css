@@ -66,6 +66,7 @@ ul#galeria>li {
     border: 2px solid black;
     border-radius: 10px;
     opacity: 0.55;
+    text-align: center;
 
 }
 
@@ -98,6 +99,12 @@ ul#galeria>li:hover {
 .figma::before {
     content: 'Figma'
 }
+.after::before {
+    content: 'After Effects'
+}
+.premier::before {
+    content: 'Premier'
+}
 
 .html {
     background: orange;
@@ -122,6 +129,20 @@ ul#galeria>li:hover {
 
 .figma {
     background: pink;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.after {
+    background: grey;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.premier {
+    background: violet;
     padding: 5px;
     border-radius: 5px;
     color: black;
