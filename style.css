@@ -34,7 +34,12 @@ a {
 
 p {
     hyphens: auto;
+    
     /* text-align: left; */
+}
+
+.grid h3{
+    height: 50px;
 }
 
 /* Configuración especifica de la galeria */
@@ -211,4 +216,9 @@ ul#galeria.list img {
 ul#galeria.list>li:hover img {
     margin-right: 30px;
     transform: scale(1.18);
+}
+
+/* Grid */
+.grid p{
+height: 100px;
 }
